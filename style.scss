@@ -147,3 +147,36 @@ body {
         }
     }
 }
+@media all and (max-width: 780px){
+    .wrapper {
+       
+        header {
+            margin: 20px auto;
+    
+            .header-title {
+                font-size: 44px;
+               }
+        }
+            nav {
+            ul {
+                margin: 0 10px;
+    
+                li {
+                    padding: 10px;
+                    margin: 10px;
+    
+                    a {
+
+    
+                        .nav-title {
+
+                            font-size: 20px;
+                            padding: 10px 0 0 0;
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}
