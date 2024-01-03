@@ -133,4 +133,28 @@ body {
   font-family: Montserrat;
   font-size: 20px;
   padding: 20px 0 0 0;
+}
+
+@media all and (max-width: 780px) {
+  .wrapper {
+    max-width: 760px;
+  }
+  .wrapper header {
+    margin: 20px auto 30px;
+  }
+  .wrapper header .header-title {
+    font-size: 44px;
+  }
+  .wrapper nav ul {
+    margin: 0 10px;
+  }
+  .wrapper nav ul li {
+    padding: 10px;
+    margin: 10px;
+    max-width: 100px;
+  }
+  .wrapper nav ul li a .nav-title {
+    font-size: 15px;
+    padding: 10px 0 0 0;
+  }
 }/*# sourceMappingURL=style.css.map */
